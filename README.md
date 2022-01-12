@@ -3,8 +3,8 @@
 
 ## 配置
 ```bash
-git clone https://github.com/thisiszy/USTC-course-scheduler.git
-cd USTC-course-scheduler
+git clone https://github.com/thisiszy/NetEaseMusic-Analyzer.git
+cd NetEaseMusic-Analyzer
 pip install -r requirements.txt
 ```
 
