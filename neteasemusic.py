@@ -124,6 +124,7 @@ try:
     plt.yticks([])
     plt.gca().yaxis.set_major_locator(ticker.MultipleLocator(((max(ys)-min(ys))/height/2).days))
     plt.gca().xaxis.set_major_locator(ticker.MultipleLocator(len(xs)/width/2))
+    plt.savefig('result.png', bbox_inches='tight')
     plt.show()
 
 except Exception as e:
