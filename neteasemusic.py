@@ -83,7 +83,7 @@ class AlbumAgeAnalyzer(AnalyzerBase):
                 print("%d, %s" % (cnt, json.loads(soup.find('script', {'type': 'application/ld+json'}).string)['title']))
                 cnt += 1
             except:
-                print("%d, %s" % (cnt, "PRIVATE LIST"))
+                print("%d, " % cnt + Alarm.WARNING + "PRIVATE LIST" + Alarm.RESET)
                 cnt += 1
         print('------------select your id------------')
         sel = int(input())
