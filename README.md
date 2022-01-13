@@ -9,6 +9,10 @@ pip install -r requirements.txt
 ```
 
 ## 使用
+### step 1
+打开网易云音乐，并点击你想要统计的歌单，等待歌单中的歌曲信息全部加载完成后再执行第二步。否则数据库中的歌曲数据很可能不完整，从而分析结果也不准确。
+
+### step 2
 ```bash
 python3 neteasemusic.py
 ```
